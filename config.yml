@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://looth.io"
 languageCode: "en-us"
 title: "@im_root"
 theme: "PaperMod"
@@ -19,7 +19,7 @@ outputs:
 taxonomies:
   category: categories
   tag: tags
-  
+
 # Main Navigation Menu
 menu:
     main:
