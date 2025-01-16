@@ -16,11 +16,10 @@ outputs:
         - RSS
         - JSON    # Required for search
 
-# Taxonomy Configuration
 taxonomies:
   category: categories
   tag: tags
-
+  
 # Main Navigation Menu
 menu:
     main:
