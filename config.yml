@@ -1,0 +1,120 @@
+baseURL: ""
+languageCode: "en-us"
+title: "@im_root"
+theme: "PaperMod"
+
+# Build Options
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+enableEmoji: true
+
+# Output Formats
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON    # Required for search
+
+# Taxonomy Configuration
+taxonomies:
+  category: categories
+  tag: tags
+
+# Main Navigation Menu
+menu:
+    main:
+        - identifier: about
+          name: About
+          url: /about/    # Relative URL
+          weight: 5       
+        - identifier: posts
+          name: Posts
+          url: /posts/    # Relative URL
+          weight: 10
+        - identifier: categories
+          name: Categories
+          url: /categories/    # Relative URL
+          weight: 20
+        - identifier: search
+          name: Search
+          url: /search/    # Relative URL
+          weight: 30
+        - identifier: archives
+          name: Archives
+          url: /archives/    # Relative URL
+          weight: 40
+
+# Site Parameters
+params:
+    # Theme Settings
+    env: production
+    defaultTheme: auto
+    ShowShareButtons: true
+    ShowReadingTime: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowWordCount: true
+    ShowRssButtonInSectionTermList: true
+    UseHugoToc: true
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+
+    # Profile Mode Configuration
+    profileMode:
+        enabled: true
+        title: "Looth Ibrahim"
+        subtitle: "Linux/Unix Admin | DevOps Engineer | SysAdmin | InfoSec | DevOps | GitOps"
+        imageUrl: "/img/profile-photo.jpg"
+        imageTitle: "profile picture"
+        imageWidth: 120
+        imageHeight: 120
+        buttons:
+            - name: Posts
+              url: /posts/    # Relative URL
+            - name: Github
+              url: "https://github.com/imluth"
+
+    # Search Configuration
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+    # Social Media Icons
+    socialIcons:
+        - name: github
+          url: "https://github.com/imluth"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/loothibrahim/"
+        - name: x
+          url: "https://x.com/im_root"
+        - name: facebook
+          url: "https://www.facebook.com/metasploitable"
+        - name: instagram
+          url: "https://instagram.com/im_root"
+        - name: snapchat
+          url: "https://www.snapchat.com/add/im_root"
+        - name: telegram
+          url: "https://www.t.me/im_root"
+        - name: discord
+          url: "https://discordapp.com/invite/root#3445"
+        - name: email
+          url: "mailto:hello@looth.xyz"
+
+# Markup Configuration
+markup:
+    highlight:
+        noClasses: false
+        lineNos: true
+        style: monokai
