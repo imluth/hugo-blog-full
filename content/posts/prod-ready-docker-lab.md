@@ -61,6 +61,7 @@ The environment is designed to support deployment and testing of various web app
 - Container orchestration
 - Automated deployment workflows
 - Infrastructure as Code
+- Application scaling
 
 ## Conclusion
 
