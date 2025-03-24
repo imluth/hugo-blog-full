@@ -23,6 +23,9 @@ My personal lab environment runs on a Linode-managed VM, serving as a Docker hos
 
 The setup implements a GitOps-driven workflow, enabling automatic deployments through Portainer's webhook integration with GitHub. This architecture supports rapid development and deployment of containerized applications.
 
+![Docker Infra Architecture](/img/dockernode-infra.png)
+
+
 ![CI/CD Pipeline Architecture](/img/cicd-diagram.png)
 
 ## Implementation Details
