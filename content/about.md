@@ -2,7 +2,7 @@
 title: "About Me"
 date: 2025-01-14
 draft: false
-description: "About Looth Ibrahim - DevOps Engineer and System Administrator"
+description: "About Looth Ibrahim - DevOps and Platform Engineer"
 showToc: false
 ShowBreadCrumbs: true
 url: "/about/"
@@ -10,7 +10,7 @@ url: "/about/"
 
 ## 👋 Hi, I'm Looth Ibrahim
 
-I'm a DevOps Engineer and System Administrator specializing in infrastructure automation, cloud technologies, and system optimization. With a strong foundation in Linux/Unix administration and a passion for DevOps practices, I work on bridging the gap between development and operations to create efficient, scalable systems.
+I'm a DevOps and Platform Engineer specializing in infrastructure automation, cloud technologies, and system optimization. With a strong foundation in Linux/Unix administration and a passion for DevOps practices, I work on bridging the gap between development and operations to create efficient, scalable systems.
 
 ## 🔧 Technical Skills
 
