@@ -20,9 +20,9 @@ for f in "${DOCKER_FILES[@]}"; do
     fi
 done
 
-# Clean public/ preserving .git
+# Clean public/ preserving .git and .gitignore
 echo "Cleaning public/..."
-find public -maxdepth 1 ! -name '.git' ! -name '.' ! -name 'public' -exec rm -rf {} +
+find public -maxdepth 1 ! -name '.git' ! -name '.gitignore' ! -name '.' ! -name 'public' -exec rm -rf {} +
 
 # Build Hugo site
 echo "Building Hugo site..."
@@ -40,6 +40,7 @@ done
 
 # Commit and push public/ to hugo-blog repo
 echo "Pushing to hugo-blog..."
+find public -name '.DS_Store' -delete
 cd public
 git add .
 msg="Rebuilding site $(date)"
